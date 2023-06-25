@@ -1,0 +1,393 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather' , 'sans';
+    background-color:  #22212C;
+}
+
+#container{
+    display: flex;
+    padding: 40px;
+    height: 1530px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+aside {
+    height: 1450px;
+    box-sizing: border-box;
+}
+
+#profile {
+    box-sizing: border-box;
+    border: 1px solid #302F3D;
+    background-color: #302F3D;
+    width: 348px;
+    height: 292px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+#profile img {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #00FF00;
+    display: block;
+    margin: 32px auto 30px;
+    border-radius: 50%;
+}
+
+#nome {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    color: #837E9F;
+    font-size: 23px;
+    margin: 30px 0 10px;
+}
+
+#grau {
+    color: #837E9F;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 49px;
+    
+}
+
+#links ul {
+    border: 1px solid  #302F3D;
+    background-color: #302F3D;
+    color: #837E9F;
+    list-style: none;
+    width: 348px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+    border-radius: 5%;
+
+}
+
+#links li {
+    margin-bottom: 20px; 
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#tech {
+    border: 1px solid  #302F3D;
+    background-color: #302F3D;
+    width: 348px;
+    height: 208px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+#tech ul {
+    font-weight: 700;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tech li {
+    background: #CB92B1;
+    border-radius: 30px;
+    width: 86px;
+    height: 24px;
+    text-align: center;
+    padding: 6px 0 7px;
+    margin: 15px;
+    list-style: none;
+}
+
+#tech3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #837E9F;
+}
+
+#exp {
+    border: 1px solid  #302F3D;
+    background-color:  #302F3D;
+    border-radius: 20px;
+    width: 348px;
+    margin-bottom: 30px;
+}
+
+#exp h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #837E9F;
+}
+
+#exp li {
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #837E9F;
+}
+
+#exp span {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#education {
+    border: 1px solid  #302F3D;
+    background: #302F3D;
+    border-radius: 20px;
+    width: 348px;
+    
+}
+
+#education h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #837E9F;
+}
+
+#education ul {
+    margin-left: 40px;
+}
+
+#education li {
+    margin-bottom: 30px;
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#education span {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+main {
+    flex: 1;
+    height: 1000px;
+}
+
+#myproj {
+    background: #302F3D;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+}
+
+#myproj h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #837E9F;
+}
+
+#myproj p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #837E9F;
+}
+
+#onyx {
+    display: flex;
+}
+
+.ion a {
+    color: #837E9F;
+}
+
+#proj1 {
+    width: 400px;
+    height: 186px;
+    border-radius: 20px;
+    margin-top: 31px;
+    background: #302F3D;
+
+}
+
+#proj1 li {
+    width: 200px;
+    color: #837E9F;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    height: 17px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.icon1 {
+    width: 50px;
+    color: #837E9F;
+    list-style: none;
+}
+
+#proj1 p {
+    color: #837E9F;
+    width: 365px;
+    color: #837E9F;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+.ion {
+    width: 365px;
+    margin-left: 30px;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.star {
+    width: 130px;
+    color: #837E9F;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+}
+
+.jsicon {
+    color: #837E9F;
+    font-size: 14px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+
+/*My- onyx 2*/
+
+#proj2 {
+    width: 400px;
+    height: 186px;
+    border-radius: 20px;
+    margin-top: 31px;
+    background: #302F3D;
+    margin-left: 30px;
+}
+
+#proj2 li {
+    width: 200px;
+    color: #837E9F;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    height: 17px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+#proj2 p {
+    color: #837E9F;
+    width: 365px;
+    color: #837E9F;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+#recent {
+    background: #302F3D;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#recent h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #837E9F;
+}
+
+#post {
+    width: 850px;
+    border-radius: 20px;
+    background: #302F3D;
+    height: 201px;
+    margin-top: 30px;
+    display: flex;
+}
+
+#post img {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #00FF00;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+#post h4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #837E9F;
+    font-size: 18px;
+    font-weight: 700;
+    width: 612px;
+}
+#post span {
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#text p {
+    color: #837E9F;
+    font-size: 16px;
+    margin: 28px 0 0 20px;
+    font-weight: 300;
+}
+
+#hash {
+    display: flex;
+}
+
+#hash p {
+    color: #837E9F;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    color: #837E9F;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
